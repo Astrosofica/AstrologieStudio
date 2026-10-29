@@ -1,0 +1,16 @@
+{
+  "id": "heerschappen",
+  "naam": "Heerschappen",
+  "jaar": 1,
+  "aan": true,
+  "module": true,
+  "_toelichting": "Tweede aanvulling uit het plan. Besluit van Jan (13 oktober 2026): altijd het moderne schema. Gebouwd op 13 oktober 2026 in kern/heerschappen.py; levert het schema, de heerser per lichaam en de heersers per huis (met het huis waarin die heerser zelf staat).",
+  "bron": { "soort": "keuze", "titel": "besluit van Jan, 13 oktober 2026: het moderne schema (Schorpioen Pluto, Waterman Uranus, Vissen Neptunus)" },
+  "invoer": { "kaart": true, "opties": { "schema": ["modern"] } },
+  "rekent": [{ "wat": "heerschap-per-positie", "schema": "modern" },
+             { "wat": "heersers-per-huis", "schema": "modern" }],
+  "tekent": ["heerschap-in-de-lijst"],
+  "duidt": [],
+  "ijking": { "tegen": "geen enkele afdruk laat heerschappen zien", "gemeten": "n.v.t. - een vakinhoudelijke keuze, geen berekening om tegen na te rekenen", "tolerantie": "n.v.t." },
+  "open": "Waar de heerschappen moeten staan: nu in de gegevenstabel en in de afdruk (heerser per huis). Als er een vaste plek in het wiel of een aparte notatie gewenst is, is dat een ontwerpkeuze van Jan."
+}

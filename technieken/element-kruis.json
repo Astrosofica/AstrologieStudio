@@ -1,0 +1,22 @@
+{
+  "id": "element-kruis",
+  "naam": "Element- en kruisverdeling",
+  "jaar": 1,
+  "aan": true,
+  "module": true,
+  "_toelichting": "Eerste aanvulling uit het plan. De vorm komt van de Pathfinder-afdruk: per groep de glyphs van de lichamen, Asc en MC in hun eigen groep, geen telling en geen tekenglyphs. Gebouwd op 13 oktober 2026 in kern/elementen.py; de tien lichamen Zon tot en met Pluto tellen mee, knoop/dagpars/Cheiron niet.",
+  "bron": {
+    "soort": "afdruk",
+    "titel": "de Pathfinder-afdruk - de blokken Cardinal/Fixed/Mutable en Fire/Earth/Air/Water",
+    "bewijs": "PRINTS.md, 'wat hieruit volgt voor de basis'; de volgorde binnen een groep is die van de afdruk (Maan, Mercurius, Venus, Zon, Mars, Jupiter, Saturnus, Uranus, Neptunus, Pluto)"
+  },
+  "invoer": { "kaart": true, "opties": { "welke-lichamen": "zon-tot-pluto" } },
+  "rekent": [{ "wat": "verdeling", "over": "teken-van-het-lichaam" }],
+  "tekent": ["gegroepeerde-lijsten"],
+  "duidt": [],
+  "ijking": {
+    "tegen": "de Pathfinder-afdruk, blok rechtsonder",
+    "gemeten": "13 oktober 2026: alle zeven groepen gelijk - Cardinal Mercurius Venus Zon Saturnus Uranus + Asc; Fixed Maan Neptunus + MC; Mutable Mars Jupiter Pluto; Vuur Mercurius Venus Zon Mars Saturnus; Aarde Jupiter Pluto; Lucht Uranus + MC; Water Maan Neptunus + Asc",
+    "tolerantie": "n.v.t. (telling, geen afwijking mogelijk)"
+  }
+}

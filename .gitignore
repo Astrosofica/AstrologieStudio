@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+drafts/
+data/osm-cache.json
+uitgave/
+dist/
+build/
+controle-uitkomst.txt
+bouw/versie.iss
+bouw/versie-info.txt
+schil-qt/metingen/
+schil-qt/.venv/
+delen/
+dist-qt/
+build-qt/

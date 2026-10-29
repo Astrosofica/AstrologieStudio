@@ -1,0 +1,21 @@
+# Wat niet in de bronzip hoort die met een uitgave meegaat (git archive laat deze paden weg).
+# Reden: het ontwikkelverslag, de afdrukken van derden, de Qt-proefschil en de site zijn geen bron van
+# het programma - en de afdrukken bevatten geboortegegevens van derden (T30/T41).
+STATUS.md            export-ignore
+ONTWIKKELING.md      export-ignore
+prints/              export-ignore
+data/proefkaarten/   export-ignore
+inspiratie/          export-ignore
+site/                export-ignore
+schil-qt/            export-ignore
+ijking/uitkomsten-*  export-ignore
+bouw/backup-github.sh        export-ignore
+bouw/astrologie-studio-qt.iss   export-ignore
+bouw/astrologie-studio-qt.spec  export-ignore
+bouw/bouw-windows-qt.bat        export-ignore
+bouw/maak-installer-qt.bat      export-ignore
+bouw/draai-uit-bron.bat         export-ignore
+ijking/meet-cuspen-in-print.py  export-ignore
+ijking/maak-wielen.py           export-ignore
+ijking/ijk-chiron.py            export-ignore
+ijking/2026-10-12-*             export-ignore
